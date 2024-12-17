@@ -125,6 +125,6 @@ The study culminates with the design of a **5-transistor differential amplifier*
 This project underscores the importance of design trade-offs in analog circuit design, highlighting the suitability of each configuration for specific use cases.
 
 ---
-You can find the detailed **[Project Report](#)** here for further information and in-depth analysis.
+You can find the detailed **[Project Report](#https://github.com/HarshitSri-Analog/Single-Stage-Differential-Amplifiers-Design-Analysis/blob/main/Amplifier_Single_DiffAmp.pdf)** here for further information and in-depth analysis.
 
 Feel free to explore the repository for detailed simulation files and analysis!
