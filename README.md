@@ -48,6 +48,10 @@ The study culminates with the design of a **5-transistor differential amplifier*
 - Poor temperature stability.
 - Output resistance limits performance.
 
+| ![CS_with_res](Images/) | 
+| :---: | 
+| Fig 1: Common Source Amplifier with resistive load |
+
 ---
 
 ### With Diode-Connected Load
@@ -64,6 +68,10 @@ The study culminates with the design of a **5-transistor differential amplifier*
 #### Disadvantages
 - Reduced voltage gain.
 - Lower output swing.
+
+| ![CS_with_diode](Images/Common-source-amplifier-with-diode-connected-load.png) | 
+| :---: | 
+| Fig 2: Common Source Amplifier with diode connected load |
 
 ---
 
@@ -84,6 +92,10 @@ The study culminates with the design of a **5-transistor differential amplifier*
 #### Disadvantages
 - Increased complexity.
 - Requires careful matching of transistors.
+
+| ![Differential_Amp](Images/Diff_Amp.jpg) | 
+| :---: | 
+| Fig 3: Differential Amplifier (5-Transistor) |
 
 ---
 
