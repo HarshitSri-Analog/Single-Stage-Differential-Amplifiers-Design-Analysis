@@ -48,7 +48,7 @@ The study culminates with the design of a **5-transistor differential amplifier*
 - Poor temperature stability.
 - Output resistance limits performance.
 
-| ![CS_with_res](Images/) | 
+| ![CS_with_res](Images/Common-Source-Amplifier.png) | 
 | :---: | 
 | Fig 1: Common Source Amplifier with resistive load |
 
