@@ -134,4 +134,4 @@ This project underscores the importance of design trade-offs in analog circuit d
 ---
 You can find the detailed **[Project Report](https://github.com/HarshitSri-Analog/Single-Stage-Differential-Amplifiers-Design-Analysis/blob/main/Amplifier_Single_DiffAmp.pdf)** here for further information and in-depth analysis.
 
-***Feel free to explore the repository for detailed simulation files and analysis!***
+***Feel free to explore the repository for detailed simulation files and analysis. If you find this repository helpful, please consider giving it a ⭐!***
