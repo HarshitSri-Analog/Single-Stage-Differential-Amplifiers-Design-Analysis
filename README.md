@@ -2,8 +2,6 @@
 
 This repository contains the design, analysis, and simulation of single-stage amplifiers and a differential amplifier. The project explores the common source amplifier with different loads and the 5-transistor differential amplifier, highlighting their advantages, limitations, and performance in various conditions.
 
----
-
 ## Table of Contents
 
 1. [Introduction](#introduction)
@@ -18,8 +16,6 @@ This repository contains the design, analysis, and simulation of single-stage am
     - [PVT Corner Analysis](#pvt-corner-analysis)
 5. [Observations and Conclusions](#observations-and-conclusions)
 
----
-
 ## Introduction
 
 This project focuses on the design and simulation of analog amplifier circuits. The analysis begins with a single-stage common source amplifier with two different loads:
@@ -28,8 +24,6 @@ This project focuses on the design and simulation of analog amplifier circuits. 
 2. **Diode-Connected Load**: Improves temperature stability.
 
 The study culminates with the design of a **5-transistor differential amplifier**, widely used in operational amplifiers and analog signal processing.
-
----
 
 ## Common Source Amplifier
 
@@ -48,11 +42,12 @@ The study culminates with the design of a **5-transistor differential amplifier*
 - Poor temperature stability.
 - Output resistance limits performance.
 
+***Explaination:** 
+This represents the simplest single-stage amplifier, where the voltage gain is determined by the drain resistance connected in the circuit. However, this design presents two significant drawbacks. Firstly, achieving higher gain requires an increase in the drain resistance (Rd), which is limited by area and power constraints. Secondly, the drain resistance is temperature-dependent, causing the voltage gain to vary with temperature, thereby introducing instability in the performance.*
+
 | ![CS_with_res](Images/Common-Source-Amplifier.png) | 
 | :---: | 
 | Fig 1: Common Source Amplifier with resistive load |
-
----
 
 ### With Diode-Connected Load
 
@@ -68,6 +63,8 @@ The study culminates with the design of a **5-transistor differential amplifier*
 #### Disadvantages
 - Reduced voltage gain.
 - Lower output swing.
+
+***Explaination:** The limitations observed in the earlier design of a common-source amplifier with a resistive load have been addressed by incorporating a diode-connected MOSFET as the active load. This adjustment enhances the temperature stability of the voltage gain and mitigates the issue of area consumption. However, this improvement comes at the cost of reduced gain, attributed to the low output resistance of the diode-connected MOSFET.*
 
 | ![CS_with_diode](Images/Common-source-amplifier-with-diode-connected-load.png) | 
 | :---: | 
@@ -93,11 +90,11 @@ The study culminates with the design of a **5-transistor differential amplifier*
 - Increased complexity.
 - Requires careful matching of transistors.
 
+***Explaination:** Differential amplifiers are preferred over single-stage amplifiers due to their superior performance in rejecting common-mode signals, such as noise or interference, while amplifying the differential signal of interest. This makes them ideal for applications requiring high precision and robustness in noisy environments. In our 5-transistor differential amplifier, current mirrors serve as an active load and biasing circuit. They enhance the circuit's performance by providing high output impedance, enabling improved gain, and maintaining a constant current for proper operation. This ensures stable and efficient functioning of the differential pair, while also reducing the overall power consumption and chip area.*
+
 | ![Differential_Amp](Images/Diff_Amp.jpg) | 
 | :---: | 
 | Fig 3: Differential Amplifier (5-Transistor) |
-
----
 
 ## Simulations and Results
 
@@ -119,8 +116,6 @@ The study culminates with the design of a **5-transistor differential amplifier*
 - The diode-connected load improved stability but showed limited performance at low supply voltages.
 - The differential amplifier exhibited the best robustness across PVT corners, maintaining gain and stability.
 
----
-
 ## Observations and Conclusions
 
 1. **Common Source Amplifier**:
@@ -139,4 +134,4 @@ This project underscores the importance of design trade-offs in analog circuit d
 ---
 You can find the detailed **[Project Report](https://github.com/HarshitSri-Analog/Single-Stage-Differential-Amplifiers-Design-Analysis/blob/main/Amplifier_Single_DiffAmp.pdf)** here for further information and in-depth analysis.
 
-Feel free to explore the repository for detailed simulation files and analysis!
+***Feel free to explore the repository for detailed simulation files and analysis!***
