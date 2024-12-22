@@ -9,17 +9,17 @@ This repository contains the design, analysis, and simulation of single-stage am
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
-2. [Common Source Amplifier](#common-source-amplifier)
+- [Introduction](#introduction)
+-  [Common Source Amplifier](#common-source-amplifier)
     - [With Resistive Load](#with-resistive-load)
     - [With Diode-Connected Load](#with-diode-connected-load)
-3. [Differential Amplifier](#differential-amplifier)
+- [Differential Amplifier](#differential-amplifier)
     - [5-Transistor Differential Amplifier](#5-transistor-differential-amplifier)
-4. [Simulations and Results](#simulations-and-results)
+- [Simulations and Results](#simulations-and-results)
     - [Gain Analysis](#gain-analysis)
     - [Output Resistance](#output-resistance)
     - [PVT Corner Analysis](#pvt-corner-analysis)
-5. [Observations and Conclusions](#observations-and-conclusions)
+- [Observations and Conclusions](#observations-and-conclusions)
 
 ## Introduction
 
